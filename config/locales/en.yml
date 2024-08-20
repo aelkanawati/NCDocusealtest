@@ -18,6 +18,7 @@ en: &en
   language_nl: Nederlands
   language_ar: العربية
   language_ko: 한국어
+  language_ja: 日本語
   email: Email
   form_expired_at_html: 'Form expired on <span class="font-semibold">%{time}</span>'
   verification_code_code: 'Verification code: %{code}'
@@ -576,6 +577,53 @@ ko:
   sign_up_with_microsoft: Microsoft로 가입
   by_creating_an_account_you_agree_to_our_html: '계정을 생성함으로써, 귀하는 우리의 <a target="_blank" href="https://www.docuseal.co/privacy">개인정보 보호정책</a> 및 <a target="_blank" href="https://www.docuseal.co/terms">서비스 약관</a>에 동의하는 것입니다.'
   enter_email_to_continue: 계속하려면 이메일을 입력하세요
+
+ja: 
+  email: 電子メール
+  form_expired_at_html: 'フォームの有効期限は <span class="font-semibold">%{time}</span>'
+  verification_code_code: '検証コード: %{code}'
+  digitally_signed_by: デジタル署名者
+  role: 役割
+  reason: 理由
+  provide_your_email_to_start: 開始するにはメールアドレスを入力してください
+  start: 開始
+  starting: 始めています
+  form_has_been_deleted_by_html: '<span class="font-semibold">%{name}</span> によってフォームが削除されました。'
+  invited_by_html: '<span class="font-semibold">%{name}</span> に招待されました'
+  you_have_been_invited_to_submit_a_form: フォームを送信してください
+  signed_on_time: '%{time} に署名されました'
+  form_has_been_submitted_already: フォームはすでに送信されています
+  send_copy_to_email: 電子メールにコピーを送信
+  sending: 送信中
+  resubmit: 再送信
+  form_has_been_deleted_by_html: '<span class="font-semibold">%{name}</span> によってフォームが削除されました。'
+  or: または
+  download_documents: ドキュメントをダウンロード
+  downloading: ダウンロード中
+  completed_successfully: 正常に完了しました
+  password: パスワード
+  sign_in: サインイン
+  signing_in: サインイン中
+  sign_in_with_microsoft: Microsoftでサインインする
+  sign_in_with_google: Googleでサインインする
+  forgot_your_password_: パスワードを忘れましたか？
+  create_free_account: 無料アカウントを作成
+  already_have_an_account: すでにアカウントをお持ちですか？
+  first_name: 名
+  last_name: 姓
+  company_name_optional: 会社名 （オプション）
+  sign_up: 登録
+  signing_up: 登録中
+  profile_details: プロフィールの詳細
+  create_free_account: 無料アカウントの作成
+  sign_up_with_google: Googleで登録する
+  sign_up_with_microsoft: Microsoftで登録する
+  by_creating_an_account_you_agree_to_our_html: 'アカウントを作成するで、以下の事項に同意したものとみなされます。 <a target="_blank" href="https://www.docuseal.co/privacy">Privacy Policy</a> and <a target="_blank" href="https://www.docuseal.co/terms">Terms of Service</a>.'
+  enter_email_to_continue: 続行するにはEメールを入力してください
+  doorkeeper:
+    scopes:
+      write: データの更新
+      read: データの読み込み
 
 en-US:
   <<: *en
